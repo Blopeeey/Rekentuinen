@@ -316,5 +316,7 @@ public class newToetsTafel extends AppCompatActivity {
                 editor.apply();
             }
         }
+        Button weg = (Button) findViewById(R.id.control);
+        weg.setVisibility(View.GONE);
     }
 }

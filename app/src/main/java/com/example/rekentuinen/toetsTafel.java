@@ -320,5 +320,7 @@ public class toetsTafel extends AppCompatActivity {
                 editor.apply();
             }
         }
+        Button weg = (Button) findViewById(R.id.cont);
+        weg.setVisibility(View.GONE);
     }
 }
